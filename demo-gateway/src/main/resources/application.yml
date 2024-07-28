@@ -1,0 +1,22 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: GatewayApplication
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+dubbo:
+  application:
+    logger: slf4j
+    name: GatewayApplication
+    qos-enable: false
+    register-consumer: false
+  registry:
+    address: nacos://${nacos.address:127.0.0.1}:8848
+    parameters:
+      namespace: dev
+  protocol:
+    name: tri
+    port: -1

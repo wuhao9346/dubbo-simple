@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: MgApplication
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC
+    username: 'root'
+    password: '1'
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+dubbo:
+  application:
+    name: MgApplication
+    qos-port:
+  config-center:
+    namespace: dev
+    address: nacos://${nacos.address:127.0.0.1}:8848
+mybatis:
+  mapper-locations: classpath:mappers/*xml
+  type-aliases-package: com.wh.dubbbo.demo.base.entity
+seata:
+  enabled: true
+  application-id: ${spring.application.name}
+  tx-service-group: default_tx_group
+  service:
+    vgroup-mapping:
+      default_tx_group: default
+    grouplist:
+      default: ${seata.address:127.0.0.1}:8091
+    enable-degrade: false
+    disable-global-transaction: false
+  config:
+    type: file
+  registry:
+    type: file
