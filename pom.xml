@@ -17,10 +17,10 @@
     </properties>
 
     <modules>
-        <module>demo-api</module>
-        <module>demo-service-base</module>
-        <module>demo-service-mg</module>
-        <module>demo-gateway</module>
+        <module>dubbo-api</module>
+        <module>dubbo-service-base</module>
+        <module>dubbo-service-mg</module>
+        <module>dubbo-gateway</module>
     </modules>
 
     <dependencyManagement>
@@ -41,7 +41,7 @@
             </dependency>
             <dependency>
                 <groupId>com.wh.dubbbo</groupId>
-                <artifactId>demo-api</artifactId>
+                <artifactId>dubbo-api</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
