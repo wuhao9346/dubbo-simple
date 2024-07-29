@@ -115,7 +115,7 @@
 
 2. nacos中dubbo.properties配置增加注册中心配置
 
-   ![image-20240729214815870](Home.assets/image-20240729214815870.png)
+   ![增加注册中心配置](https://foruda.gitee.com/images/1722265367804094210/771fb5b0_5363674.png "image-20240729214815870.png")
 
 #### 实现简单RPC通信
 
@@ -311,29 +311,24 @@
 
 4. 配置接口的流控规则和熔断规则
 
-   ![image-20240729222631504](Home.assets/image-20240729222631504.png)
+   ![流控规则](https://foruda.gitee.com/images/1722265407272715576/02804b7e_5363674.png "image-20240729222631504.png")
 
-   ![image-20240729222752877](Home.assets/image-20240729222752877.png)
+   ![熔断规则](https://foruda.gitee.com/images/1722265442402737848/5919faae_5363674.png "image-20240729222752877.png")
 
 #### 使用 jmeter进行压力测试
 
 1. 配置TestPlan
 
-   ![image-20240729225155105](Home.assets/image-20240729225155105.png)
+   ![线程池配置](https://foruda.gitee.com/images/1722265475376919957/d5f06a78_5363674.png "image-20240729225155105.png")
 
-   ![image-20240729225201792](Home.assets/image-20240729225201792.png)
+   ![http请求配置](https://foruda.gitee.com/images/1722265501625435500/c33fcbb0_5363674.png "image-20240729225201792.png")
 
 2. Skyworking和Sentinel展示
 
-   ![image-20240729222909873](Home.assets/image-20240729222909873.png)
+   ![Sentinel实时监控](https://foruda.gitee.com/images/1722265533772857688/0ac39052_5363674.png "image-20240729222909873.png")
    
-   ![image-20240729222135904](Home.assets/image-20240729222135904.png)
+   ![Skyworking服务监控](https://foruda.gitee.com/images/1722265601780091254/cc0cab99_5363674.png "image-20240729222135904.png")
 
-   ![image-20240729222146506](Home.assets/image-20240729222146506.png)
+   ![Skyworking服务拓扑图](https://foruda.gitee.com/images/1722265683994898627/92c16e30_5363674.png "image-20240729222146506.png")
 
-   ![image-20240729222203179](Home.assets/image-20240729222203179.png)
-
-
-
-#### [搭建流程](https://gitee.com/wuhao199346/dubbo-simple/wikis/Home)
-
+   ![Skyworking链路追踪](https://foruda.gitee.com/images/1722265744776476970/85663349_5363674.png "image-20240729222203179.png")
