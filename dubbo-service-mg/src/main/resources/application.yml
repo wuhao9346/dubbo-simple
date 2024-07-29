@@ -7,10 +7,6 @@ spring:
     url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC
     username: 'root'
     password: '1'
-management:
-  tracing:
-    sampling:
-      probability: 1.0
 dubbo:
   application:
     name: MgApplication

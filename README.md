@@ -264,8 +264,9 @@
 4. 配置启动时虚拟机参数
 
    -javaagent:代理jar包路径
+   
    -DSW_AGENT_NAME=代理名称，也就是当前App的名称
-
+   
    ```
    -javaagent:D:\wuhao\dubbo-module\apache-skywalking-java-agent-9.2.0\skywalking-agent\skywalking-agent.jar
    -DSW_AGENT_NAME=base
