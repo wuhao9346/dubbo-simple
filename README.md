@@ -15,11 +15,12 @@
 
 - spring-boot-2.7.10
 - dubbo-3.3.0-beta.1
-- nacos-server-2.4.0-BETA
-- apache-skywalking-apm-10.0.1
-- apache-skywalking-java-agent-9.2.0
-- sentinel-dashboard-1.8.8
-- apache-jmeter-5.6.3
+- [OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7](https://adoptium.net/zh-CN/)
+- [nacos-server-2.4.0-BETA](https://download.nacos.io/nacos-server/nacos-server-2.4.0.1.zip)
+- [apache-skywalking-apm-10.0.1](https://dlcdn.apache.org/skywalking/10.0.1/apache-skywalking-apm-10.0.1.tar.gz)
+- [apache-skywalking-java-agent-9.2.0](https://archive.apache.org/dist/skywalking/java-agent/9.2.0/apache-skywalking-java-agent-9.2.0.tgz)
+- [sentinel-dashboard-1.8.8](https://github.com/alibaba/Sentinel/releases/download/1.8.8/sentinel-dashboard-1.8.8.jar)
+- [apache-jmeter-5.6.3](https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.zip)
 
 #### 创建Dubbo项目
 
