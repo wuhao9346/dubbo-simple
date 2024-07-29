@@ -13,5 +13,5 @@
 
 
 
-#### [搭建流程](wikis/Home)
+#### [搭建流程](https://gitee.com/wuhao199346/dubbo-simple/wikis/Home)
 
