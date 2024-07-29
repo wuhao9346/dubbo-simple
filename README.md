@@ -100,7 +100,7 @@
    ![增加配置文件dubbo.properties](https://foruda.gitee.com/images/1722265165523133701/0d3cc777_5363674.png "image-20240729214259353.png")
 
 
-   ![配置文件dubbo.properties](https://foruda.gitee.com/images/1722265220671748450/a1b4d3c3_5363674.png "image-20240729214511330.png")![image-20240729214511330](Home.assets/image-20240729214511330.png)
+   ![配置文件dubbo.properties](https://foruda.gitee.com/images/1722265220671748450/a1b4d3c3_5363674.png "image-20240729214511330.png")
 
 #### 使用nacos实现注册中心
 
