@@ -23,7 +23,7 @@ import org.mybatis.spring.annotation.MapperScan;
  *
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
-@MapperScan("com.wh.dubbbo.demo.mybatis")
+@MapperScan("com.wh.dubbo.base.mapper")
 public class MybatisDemoConfig {
 
 }

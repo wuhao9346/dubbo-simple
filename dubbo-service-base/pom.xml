@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.wh.dubbbo</groupId>
+        <groupId>com.wh.dubbo</groupId>
         <artifactId>dubbo-simple</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -11,7 +11,7 @@
     <artifactId>dubbo-service-base</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.wh.dubbbo</groupId>
+            <groupId>com.wh.dubbo</groupId>
             <artifactId>dubbo-api</artifactId>
         </dependency>
         <dependency>
@@ -91,7 +91,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.wh.dubbbo.demo.DemoApplication</mainClass>
+                    <mainClass>com.wh.dubbo.base.BaseApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>

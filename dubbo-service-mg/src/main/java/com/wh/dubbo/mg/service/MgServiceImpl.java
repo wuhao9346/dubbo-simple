@@ -19,7 +19,7 @@ public class MgServiceImpl implements MgService {
     @DubboReference
     private NoticeService noticeService;
 
-//    @GlobalTransactional
+    //    @GlobalTransactional
     @Override
     public List<Map<String, Object>> getDrugList() {
         noticeService.sendNotice("开始获取药品列表。");

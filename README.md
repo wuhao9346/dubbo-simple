@@ -100,8 +100,7 @@
 
    ![增加配置文件dubbo.properties](https://foruda.gitee.com/images/1722265165523133701/0d3cc777_5363674.png "image-20240729214259353.png")
 
-
-   ![配置文件dubbo.properties](https://foruda.gitee.com/images/1722265220671748450/a1b4d3c3_5363674.png "image-20240729214511330.png")
+![配置文件dubbo.properties](https://foruda.gitee.com/images/1722265220671748450/a1b4d3c3_5363674.png "image-20240729214511330.png")
 
 #### 使用nacos实现注册中心
 
@@ -265,9 +264,9 @@
 4. 配置启动时虚拟机参数
 
    -javaagent:代理jar包路径
-   
+
    -DSW_AGENT_NAME=代理名称，也就是当前App的名称
-   
+
    ```
    -javaagent:D:\wuhao\dubbo-module\apache-skywalking-java-agent-9.2.0\skywalking-agent\skywalking-agent.jar
    -DSW_AGENT_NAME=base
@@ -328,7 +327,7 @@
 2. Skyworking和Sentinel展示
 
    ![Sentinel实时监控](https://foruda.gitee.com/images/1722265533772857688/0ac39052_5363674.png "image-20240729222909873.png")
-   
+
    ![Skyworking服务监控](https://foruda.gitee.com/images/1722265601780091254/cc0cab99_5363674.png "image-20240729222135904.png")
 
    ![Skyworking服务拓扑图](https://foruda.gitee.com/images/1722265683994898627/92c16e30_5363674.png "image-20240729222146506.png")

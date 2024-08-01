@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.wh.dubbo.base.mapper.MybatisDemoUserMapper">
     <select id="findAll" resultType="com.wh.dubbo.base.entity.MybatisDemoUser">
-        SELECT * FROM tb_user
+        SELECT *
+        FROM tb_user
     </select>
 </mapper>
